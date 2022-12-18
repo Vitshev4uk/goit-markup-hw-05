@@ -605,6 +605,7 @@ color: var(--pure-white);
     width: 100%;
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms var(--tras-t-fun), visibility 250ms var(--tras-t-fun);
 }
 .backdrop.is-hidden {
     visibility: 0;
@@ -626,9 +627,9 @@ color: var(--pure-white);
     border-radius: 4px;
 }
 .modal-btn {
-    margin-left: 360px;
-    margin-top: 24px;
-    margin-right: 24px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
