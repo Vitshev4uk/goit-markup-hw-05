@@ -248,7 +248,7 @@ h1,h2,h3,p,ul {
     cursor: pointer;
     text-align: center;
 
-    transition: color 250ms var(--tras-t-fun);  
+    transition: color 250ms var(--tras-t-fun), background-color 250ms var(--tras-t-fun);  
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -295,6 +295,9 @@ h1,h2,h3,p,ul {
 .works-list {
     display: flex;
     justify-content: space-between;
+}
+.works-list-item {
+    width: 264px;
 }
 .svg-works {
     display: flex;
